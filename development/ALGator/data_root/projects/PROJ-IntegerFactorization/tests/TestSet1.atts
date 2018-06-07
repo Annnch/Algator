@@ -4,7 +4,7 @@
 
     "ShortName"        : "testset_short_name",
     "Description"      : "testset_description",
-    "N"                : "5",
+    "N"                : "6",
     "TestRepeat"       : "10",
     "TimeLimit"        : "10",
 
