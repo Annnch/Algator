@@ -26,43 +26,106 @@ import java.util.stream.Stream;
  * @author Ana
  */
 public class IntegerFactorizationTestSetIterator extends DefaultTestSetIterator {
-   
+
   @Override
   public TestCase getCurrent() {
     if (currentInputLine == null) {
       ErrorStatus.setLastErrorMessage(ErrorStatus.ERROR, "No valid input!");
       return null;
     }
-    
+
     // sort-project specific: line contains at least 3 fileds: testName, n and group
-    String [] fields = currentInputLine.split(":"); 
+    String [] fields = currentInputLine.split(":");
     if (fields.length < 3) {
       reportInvalidDataFormat("to few fields");
       return null;
     }
-    
+
     String testName = fields[0];
-    int probSize;
+    String probSize;
+    int numberSize;
     try {
-      probSize = Integer.parseInt(fields[1]);
+      probSize = fields[1];
     } catch (Exception e) {
       reportInvalidDataFormat("'n' is not a number");
       return null;
     }
     String group = fields[2];
 
+    int rndSize = 100; // the size of the rnadom numbers used in the array (used with RND group).
 
-    
-    int rndSize = 100; // the size of the rnadom numbers used in the array (used with RND group). 
+    BigInteger number = new BigInteger("1");
 
-    
-    // unique identificator of a test
+    switch (group) {
+
+    case "RND":
+      
+      // http://www.java2s.com/Tutorials/Java/Algorithms_How_to/Random/Generate_a_random_BigInteger_value.htm
+      BigInteger bigInteger = new BigInteger(probSize);// uper limit
+      BigInteger min = bigInteger.divide(new BigInteger("10"));// lower limit
+      BigInteger bigInteger1 = bigInteger.subtract(min);
+      Random rnd = new Random(System.currentTimeMillis());
+      int maxNumBitLength = bigInteger.bitLength();
+
+      BigInteger aRandomBigInt;
+
+      aRandomBigInt = new BigInteger(maxNumBitLength, rnd);
+      if (aRandomBigInt.compareTo(min) < 0)
+        aRandomBigInt = aRandomBigInt.add(min);
+      if (aRandomBigInt.compareTo(bigInteger) >= 0)
+        aRandomBigInt = aRandomBigInt.mod(bigInteger1).add(min);
+
+      number = aRandomBigInt;
+
+      break;
+
+
+    case "RNDPRIMES":  // first parameter is filemane, second the offset (from where numbers are read)
+
+      Random rnd1 = new Random(System.currentTimeMillis());
+
+      for (int i = 0; i < 2; i++) {
+        Integer r = rnd1.nextInt(1000000) + 1;
+
+        try (Stream<String> lines = Files.lines(Paths.get(filePath + "/primes/Primes" + probSize + ".txt"))) {
+          String random_prime = lines.skip(r - 1).findFirst().get();
+          number = number.multiply(new BigInteger(random_prime));
+        } catch (IOException e) {
+          reportInvalidDataFormat(e.toString());
+        }
+      }
+
+      break;
+
+
+    case "RNDMILLIONPRIMES":
+
+      Random rnd2 = new Random(System.currentTimeMillis());
+
+      for (int i = 0; i < 2; i++) {
+        Integer r = rnd2.nextInt(1000000) + 1;
+        Integer n = rnd2.nextInt(50) + 1;
+
+        try (Stream<String> lines = Files.lines(Paths.get(filePath + "/primes/Primes" + n + ".txt"))) {
+          String random_prime = lines.skip(r - 1).findFirst().get();
+          number = number.multiply(new BigInteger(random_prime));
+        } catch (IOException e) {
+          reportInvalidDataFormat(e.toString());
+        }
+      }
+
+      break;
+
+    }
+
+    numberSize = number.toString().length();
+
     EVariable testIDPar = EResult.getTestIDParameter("Test-" + Integer.toString(lineNumber));
-    
+
     EVariable parameter1 = new EVariable("Test",  "Test name",                    VariableType.STRING, testName);
-    EVariable parameter2 = new EVariable("N",     "Number of elements",           VariableType.INT,    probSize);
+    EVariable parameter2 = new EVariable("N",     "Number of elements",           VariableType.INT,    numberSize);
     EVariable parameter3 = new EVariable("Group", "A name of a group of tests",   VariableType.STRING, group);
-    
+
     IntegerFactorizationTestCase tCase = new IntegerFactorizationTestCase();
     // ID
     tCase.addParameter(testIDPar);
@@ -70,68 +133,9 @@ public class IntegerFactorizationTestSetIterator extends DefaultTestSetIterator 
     tCase.addParameter(parameter1);
     tCase.addParameter(parameter2);
     tCase.addParameter(parameter3);
-    
-    // read the input data (content of an aray to sort); to source of the
-    // data is defined by the group parameter
-    BigInteger number = new BigInteger("1");
-    //int [] array = new int[probSize];
-    //int i=0;
-    switch (group) {
-      /*case "INLINE":
-    if (fields.length < 4) {
-          reportInvalidDataFormat("to few fields");
-          return null;
-        }
-    String data[] = fields[3].split(" ");
-    if (data.length != probSize) {
-      reportInvalidDataFormat("invalid number of inline data");
-      return null;
-    }
-    
-    try {
-      for (i = 0; i < probSize; i++) 
-        //array[i] = BigInteger.parseInt(data[i]);
-    } catch (Exception e) {
-      reportInvalidDataFormat("invalid type of inline data - data " + (i+1));
-      return null;
-    }
-    break;*/
-      case "RND":
-    Random rnd = new Random(System.currentTimeMillis());
-        try {rndSize = probSize;} catch (Exception e) {rndSize=Integer.MAX_VALUE;}
-
-    for (int i = 0; i < 2; i++) {
-        number = number.multiply(BigInteger.valueOf(rnd.nextInt(rndSize)));
-      }
-
-    break;
-       case "RNDPRIMES":  // first parameter is filemane, second the offset (from where numbers are read)
-
-       Random rnd1 = new Random(System.currentTimeMillis());
-
-    for (int i = 0; i < 2; i++) {
-        Integer r = rnd1.nextInt(1000000) + 1; 
-
-        try (Stream<String> lines = Files.lines(Paths.get(filePath + "/primes/Primes" + probSize + ".txt"))) {
-            String random_prime = lines.skip(r-1).findFirst().get();
-            number = number.multiply(new BigInteger(random_prime));
-        } catch (IOException e) {
-          reportInvalidDataFormat(e.toString());
-        }
-      }
-      probSize = number.toString().length();
-    
-    }
-
-
-    
-    EVariable parameter4 = new EVariable("RndSize", "The size of RND nummers",   VariableType.INT, rndSize);
-    tCase.addParameter(parameter4);
-
 
 
     tCase.numberToFactorize = number;
-    return tCase; 
-  } 
+    return tCase;
+  }
 }
- 

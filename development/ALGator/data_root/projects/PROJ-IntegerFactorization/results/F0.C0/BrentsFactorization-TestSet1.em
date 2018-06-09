@@ -1,100 +1,100 @@
-BrentsFactorization;TestSet1;Test-1;DONE;14;33132;OK
-BrentsFactorization;TestSet1;Test-2;DONE;14;21420;OK
-BrentsFactorization;TestSet1;Test-3;DONE;15;27432;OK
-BrentsFactorization;TestSet1;Test-4;DONE;15;62347;OK
-BrentsFactorization;TestSet1;Test-5;DONE;16;80420;OK
-BrentsFactorization;TestSet1;Test-6;DONE;16;40510;OK
-BrentsFactorization;TestSet1;Test-7;DONE;16;41596;OK
-BrentsFactorization;TestSet1;Test-8;DONE;16;83337;OK
-BrentsFactorization;TestSet1;Test-9;DONE;16;82035;OK
-BrentsFactorization;TestSet1;Test-10;DONE;16;77323;OK
-BrentsFactorization;TestSet1;Test-11;DONE;16;101080;OK
-BrentsFactorization;TestSet1;Test-12;DONE;16;58574;OK
-BrentsFactorization;TestSet1;Test-13;DONE;17;94272;OK
-BrentsFactorization;TestSet1;Test-14;DONE;17;53366;OK
-BrentsFactorization;TestSet1;Test-15;DONE;17;20005;OK
-BrentsFactorization;TestSet1;Test-16;DONE;17;53217;OK
-BrentsFactorization;TestSet1;Test-17;DONE;17;79409;OK
-BrentsFactorization;TestSet1;Test-18;DONE;17;92812;OK
-BrentsFactorization;TestSet1;Test-19;DONE;17;206187;OK
-BrentsFactorization;TestSet1;Test-20;DONE;17;149605;OK
-BrentsFactorization;TestSet1;Test-21;DONE;17;161150;OK
-BrentsFactorization;TestSet1;Test-22;DONE;17;111068;OK
-BrentsFactorization;TestSet1;Test-23;DONE;17;141258;OK
-BrentsFactorization;TestSet1;Test-24;DONE;17;182052;OK
-BrentsFactorization;TestSet1;Test-25;DONE;17;156465;OK
-BrentsFactorization;TestSet1;Test-26;DONE;17;74288;OK
-BrentsFactorization;TestSet1;Test-27;DONE;17;150797;OK
-BrentsFactorization;TestSet1;Test-28;DONE;17;76900;OK
-BrentsFactorization;TestSet1;Test-29;DONE;17;115352;OK
-BrentsFactorization;TestSet1;Test-30;DONE;17;132165;OK
-BrentsFactorization;TestSet1;Test-31;DONE;17;105070;OK
-BrentsFactorization;TestSet1;Test-32;DONE;17;122903;OK
-BrentsFactorization;TestSet1;Test-33;DONE;17;157522;OK
-BrentsFactorization;TestSet1;Test-34;DONE;17;148490;OK
-BrentsFactorization;TestSet1;Test-35;DONE;18;127273;OK
-BrentsFactorization;TestSet1;Test-36;DONE;18;120784;OK
-BrentsFactorization;TestSet1;Test-37;DONE;18;92567;OK
-BrentsFactorization;TestSet1;Test-38;DONE;18;109899;OK
-BrentsFactorization;TestSet1;Test-39;DONE;18;141488;OK
-BrentsFactorization;TestSet1;Test-40;DONE;18;130326;OK
-BrentsFactorization;TestSet1;Test-41;DONE;18;233330;OK
-BrentsFactorization;TestSet1;Test-42;DONE;18;183653;OK
-BrentsFactorization;TestSet1;Test-43;DONE;18;276526;OK
-BrentsFactorization;TestSet1;Test-44;DONE;18;164330;OK
-BrentsFactorization;TestSet1;Test-45;DONE;18;171002;OK
-BrentsFactorization;TestSet1;Test-46;DONE;18;105966;OK
-BrentsFactorization;TestSet1;Test-47;DONE;18;289253;OK
-BrentsFactorization;TestSet1;Test-48;DONE;18;194738;OK
-BrentsFactorization;TestSet1;Test-49;DONE;18;239696;OK
-BrentsFactorization;TestSet1;Test-50;DONE;18;155845;OK
-BrentsFactorization;TestSet1;Test-51;DONE;18;157634;OK
-BrentsFactorization;TestSet1;Test-52;DONE;18;202782;OK
-BrentsFactorization;TestSet1;Test-53;DONE;18;227190;OK
-BrentsFactorization;TestSet1;Test-54;DONE;18;117906;OK
-BrentsFactorization;TestSet1;Test-55;DONE;18;105357;OK
-BrentsFactorization;TestSet1;Test-56;DONE;18;159626;OK
-BrentsFactorization;TestSet1;Test-57;DONE;18;175671;OK
-BrentsFactorization;TestSet1;Test-58;DONE;18;181428;OK
-BrentsFactorization;TestSet1;Test-59;DONE;18;153484;OK
-BrentsFactorization;TestSet1;Test-60;DONE;18;181102;OK
-BrentsFactorization;TestSet1;Test-61;DONE;18;151713;OK
-BrentsFactorization;TestSet1;Test-62;DONE;18;210581;OK
-BrentsFactorization;TestSet1;Test-63;DONE;18;181793;OK
-BrentsFactorization;TestSet1;Test-64;DONE;18;123466;OK
-BrentsFactorization;TestSet1;Test-65;DONE;18;140513;OK
-BrentsFactorization;TestSet1;Test-66;DONE;18;109667;OK
-BrentsFactorization;TestSet1;Test-67;DONE;18;76074;OK
-BrentsFactorization;TestSet1;Test-68;DONE;18;221130;OK
-BrentsFactorization;TestSet1;Test-69;DONE;18;134445;OK
-BrentsFactorization;TestSet1;Test-70;DONE;18;123677;OK
-BrentsFactorization;TestSet1;Test-71;DONE;18;194490;OK
-BrentsFactorization;TestSet1;Test-72;DONE;18;53378;OK
-BrentsFactorization;TestSet1;Test-73;DONE;18;205157;OK
-BrentsFactorization;TestSet1;Test-74;DONE;18;171196;OK
-BrentsFactorization;TestSet1;Test-75;DONE;18;126066;OK
-BrentsFactorization;TestSet1;Test-76;DONE;18;126972;OK
-BrentsFactorization;TestSet1;Test-77;DONE;18;115465;OK
-BrentsFactorization;TestSet1;Test-78;DONE;18;142611;OK
-BrentsFactorization;TestSet1;Test-79;DONE;18;171629;OK
-BrentsFactorization;TestSet1;Test-80;DONE;18;277481;OK
-BrentsFactorization;TestSet1;Test-81;DONE;18;162667;OK
-BrentsFactorization;TestSet1;Test-82;DONE;18;185895;OK
-BrentsFactorization;TestSet1;Test-83;DONE;18;149859;OK
-BrentsFactorization;TestSet1;Test-84;DONE;18;113532;OK
-BrentsFactorization;TestSet1;Test-85;DONE;18;94426;OK
-BrentsFactorization;TestSet1;Test-86;DONE;18;218096;OK
-BrentsFactorization;TestSet1;Test-87;DONE;18;192795;OK
-BrentsFactorization;TestSet1;Test-88;DONE;18;180161;OK
-BrentsFactorization;TestSet1;Test-89;DONE;18;115942;OK
-BrentsFactorization;TestSet1;Test-90;DONE;18;141910;OK
-BrentsFactorization;TestSet1;Test-91;DONE;18;322248;OK
-BrentsFactorization;TestSet1;Test-92;DONE;18;332600;OK
-BrentsFactorization;TestSet1;Test-93;DONE;18;112860;OK
-BrentsFactorization;TestSet1;Test-94;DONE;18;273822;OK
-BrentsFactorization;TestSet1;Test-95;DONE;18;229662;OK
-BrentsFactorization;TestSet1;Test-96;DONE;18;192665;OK
-BrentsFactorization;TestSet1;Test-97;DONE;18;219780;OK
-BrentsFactorization;TestSet1;Test-98;DONE;18;147026;OK
-BrentsFactorization;TestSet1;Test-99;DONE;18;124768;OK
-BrentsFactorization;TestSet1;Test-100;DONE;18;215208;OK
+BrentsFactorization;TestSet1;Test-1;DONE;14;16019;OK
+BrentsFactorization;TestSet1;Test-2;DONE;15;54295;OK
+BrentsFactorization;TestSet1;Test-3;DONE;16;50111;OK
+BrentsFactorization;TestSet1;Test-4;DONE;16;28251;OK
+BrentsFactorization;TestSet1;Test-5;DONE;16;68381;OK
+BrentsFactorization;TestSet1;Test-6;DONE;16;106014;OK
+BrentsFactorization;TestSet1;Test-7;DONE;17;89970;OK
+BrentsFactorization;TestSet1;Test-8;DONE;17;134457;OK
+BrentsFactorization;TestSet1;Test-9;DONE;17;152845;OK
+BrentsFactorization;TestSet1;Test-10;DONE;17;47329;OK
+BrentsFactorization;TestSet1;Test-11;DONE;17;125961;OK
+BrentsFactorization;TestSet1;Test-12;DONE;17;87955;OK
+BrentsFactorization;TestSet1;Test-13;DONE;17;119890;OK
+BrentsFactorization;TestSet1;Test-14;DONE;17;110624;OK
+BrentsFactorization;TestSet1;Test-15;DONE;17;64970;OK
+BrentsFactorization;TestSet1;Test-16;DONE;17;84680;OK
+BrentsFactorization;TestSet1;Test-17;DONE;17;120070;OK
+BrentsFactorization;TestSet1;Test-18;DONE;18;111849;OK
+BrentsFactorization;TestSet1;Test-19;DONE;18;85290;OK
+BrentsFactorization;TestSet1;Test-20;DONE;18;178031;OK
+BrentsFactorization;TestSet1;Test-21;DONE;18;143244;OK
+BrentsFactorization;TestSet1;Test-22;DONE;18;86189;OK
+BrentsFactorization;TestSet1;Test-23;DONE;18;83226;OK
+BrentsFactorization;TestSet1;Test-24;DONE;18;121244;OK
+BrentsFactorization;TestSet1;Test-25;DONE;18;134199;OK
+BrentsFactorization;TestSet1;Test-26;DONE;18;120586;OK
+BrentsFactorization;TestSet1;Test-27;DONE;18;81898;OK
+BrentsFactorization;TestSet1;Test-28;DONE;18;187945;OK
+BrentsFactorization;TestSet1;Test-29;DONE;18;274482;OK
+BrentsFactorization;TestSet1;Test-30;DONE;18;98094;OK
+BrentsFactorization;TestSet1;Test-31;DONE;18;163791;OK
+BrentsFactorization;TestSet1;Test-32;DONE;18;148968;OK
+BrentsFactorization;TestSet1;Test-33;DONE;18;142612;OK
+BrentsFactorization;TestSet1;Test-34;DONE;18;99380;OK
+BrentsFactorization;TestSet1;Test-35;DONE;18;129028;OK
+BrentsFactorization;TestSet1;Test-36;DONE;18;160591;OK
+BrentsFactorization;TestSet1;Test-37;DONE;18;151659;OK
+BrentsFactorization;TestSet1;Test-38;DONE;18;152297;OK
+BrentsFactorization;TestSet1;Test-39;DONE;18;136214;OK
+BrentsFactorization;TestSet1;Test-40;DONE;18;36763;OK
+BrentsFactorization;TestSet1;Test-41;DONE;18;151943;OK
+BrentsFactorization;TestSet1;Test-42;DONE;18;164490;OK
+BrentsFactorization;TestSet1;Test-43;DONE;18;221852;OK
+BrentsFactorization;TestSet1;Test-44;DONE;18;139467;OK
+BrentsFactorization;TestSet1;Test-45;DONE;18;94759;OK
+BrentsFactorization;TestSet1;Test-46;DONE;18;118905;OK
+BrentsFactorization;TestSet1;Test-47;DONE;18;198917;OK
+BrentsFactorization;TestSet1;Test-48;DONE;18;98273;OK
+BrentsFactorization;TestSet1;Test-49;DONE;18;175929;OK
+BrentsFactorization;TestSet1;Test-50;DONE;18;137462;OK
+BrentsFactorization;TestSet1;Test-51;KILLED;1;null;null;Process killed after 10 seconds.
+BrentsFactorization;TestSet1;Test-52;KILLED;1;null;null;Process killed after 10 seconds.
+BrentsFactorization;TestSet1;Test-53;KILLED;1;null;null;Process killed after 10 seconds.
+BrentsFactorization;TestSet1;Test-54;KILLED;1;null;null;Process killed after 10 seconds.
+BrentsFactorization;TestSet1;Test-55;KILLED;1;null;null;Process killed after 10 seconds.
+BrentsFactorization;TestSet1;Test-56;KILLED;1;null;null;Process killed after 10 seconds.
+BrentsFactorization;TestSet1;Test-57;KILLED;1;null;null;Process killed after 10 seconds.
+BrentsFactorization;TestSet1;Test-58;KILLED;1;null;null;Process killed after 10 seconds.
+BrentsFactorization;TestSet1;Test-59;KILLED;1;null;null;Process killed after 10 seconds.
+BrentsFactorization;TestSet1;Test-60;KILLED;1;null;null;Process killed after 10 seconds.
+BrentsFactorization;TestSet1;Test-61;KILLED;1;null;null;Process killed after 10 seconds.
+BrentsFactorization;TestSet1;Test-62;KILLED;1;null;null;Process killed after 10 seconds.
+BrentsFactorization;TestSet1;Test-63;KILLED;1;null;null;Process killed after 10 seconds.
+BrentsFactorization;TestSet1;Test-64;KILLED;1;null;null;Process killed after 10 seconds.
+BrentsFactorization;TestSet1;Test-65;KILLED;1;null;null;Process killed after 10 seconds.
+BrentsFactorization;TestSet1;Test-66;KILLED;1;null;null;Process killed after 10 seconds.
+BrentsFactorization;TestSet1;Test-67;KILLED;1;null;null;Process killed after 10 seconds.
+BrentsFactorization;TestSet1;Test-68;KILLED;1;null;null;Process killed after 10 seconds.
+BrentsFactorization;TestSet1;Test-69;KILLED;1;null;null;Process killed after 10 seconds.
+BrentsFactorization;TestSet1;Test-70;KILLED;1;null;null;Process killed after 10 seconds.
+BrentsFactorization;TestSet1;Test-71;KILLED;1;null;null;Process killed after 10 seconds.
+BrentsFactorization;TestSet1;Test-72;KILLED;1;null;null;Process killed after 10 seconds.
+BrentsFactorization;TestSet1;Test-73;KILLED;1;null;null;Process killed after 10 seconds.
+BrentsFactorization;TestSet1;Test-74;KILLED;1;null;null;Process killed after 10 seconds.
+BrentsFactorization;TestSet1;Test-75;KILLED;1;null;null;Process killed after 10 seconds.
+BrentsFactorization;TestSet1;Test-76;KILLED;1;null;null;Process killed after 10 seconds.
+BrentsFactorization;TestSet1;Test-77;KILLED;1;null;null;Process killed after 10 seconds.
+BrentsFactorization;TestSet1;Test-78;KILLED;1;null;null;Process killed after 10 seconds.
+BrentsFactorization;TestSet1;Test-79;KILLED;1;null;null;Process killed after 10 seconds.
+BrentsFactorization;TestSet1;Test-80;KILLED;1;null;null;Process killed after 10 seconds.
+BrentsFactorization;TestSet1;Test-81;KILLED;1;null;null;Process killed after 10 seconds.
+BrentsFactorization;TestSet1;Test-82;KILLED;1;null;null;Process killed after 10 seconds.
+BrentsFactorization;TestSet1;Test-83;KILLED;1;null;null;Process killed after 10 seconds.
+BrentsFactorization;TestSet1;Test-84;KILLED;1;null;null;Process killed after 10 seconds.
+BrentsFactorization;TestSet1;Test-85;KILLED;1;null;null;Process killed after 10 seconds.
+BrentsFactorization;TestSet1;Test-86;KILLED;1;null;null;Process killed after 10 seconds.
+BrentsFactorization;TestSet1;Test-87;KILLED;1;null;null;Process killed after 10 seconds.
+BrentsFactorization;TestSet1;Test-88;KILLED;1;null;null;Process killed after 10 seconds.
+BrentsFactorization;TestSet1;Test-89;KILLED;1;null;null;Process killed after 10 seconds.
+BrentsFactorization;TestSet1;Test-90;KILLED;1;null;null;Process killed after 10 seconds.
+BrentsFactorization;TestSet1;Test-91;KILLED;1;null;null;Process killed after 10 seconds.
+BrentsFactorization;TestSet1;Test-92;KILLED;1;null;null;Process killed after 10 seconds.
+BrentsFactorization;TestSet1;Test-93;KILLED;1;null;null;Process killed after 10 seconds.
+BrentsFactorization;TestSet1;Test-94;KILLED;1;null;null;Process killed after 10 seconds.
+BrentsFactorization;TestSet1;Test-95;KILLED;1;null;null;Process killed after 10 seconds.
+BrentsFactorization;TestSet1;Test-96;KILLED;1;null;null;Process killed after 10 seconds.
+BrentsFactorization;TestSet1;Test-97;KILLED;1;null;null;Process killed after 10 seconds.
+BrentsFactorization;TestSet1;Test-98;KILLED;1;null;null;Process killed after 10 seconds.
+BrentsFactorization;TestSet1;Test-99;KILLED;1;null;null;Process killed after 10 seconds.
+BrentsFactorization;TestSet1;Test-100;KILLED;1;null;null;Process killed after 10 seconds.

@@ -4,8 +4,8 @@
 
     "ShortName"        : "testset_short_name",
     "Description"      : "testset_description",
-    "N"                : "105",
-    "TestRepeat"       : "10",
+    "N"                : "100",
+    "TestRepeat"       : "1",
     "TimeLimit"        : "10",
 
     "TestSetDescHTML"  : "TestSet2.html"
