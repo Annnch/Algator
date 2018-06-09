@@ -77,6 +77,8 @@ public class IntegerFactorizationTestSetIterator extends DefaultTestSetIterator 
 
       number = aRandomBigInt;
 
+      System.out.println(number);
+
       break;
 
 
