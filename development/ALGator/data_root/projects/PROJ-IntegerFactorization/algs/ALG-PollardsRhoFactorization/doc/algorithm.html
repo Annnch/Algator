@@ -1,6 +1,6 @@
 <html>
-<p>Let <i>n = p m</i> where <i>p</i> is prime number and <i>m</i> integer which does not need to be prime number. Our task is to find <i>p</i>. Now <b>Pollard's rho algorithm</b> uses the fact: if x1=x2 (mod p); x1, x2 from {0,...,n-1} then p|(x1 -x2). We know that p|n and  p| (x1-x2), therefore p | gcd(x1 - x2, n). !! We do not know the value of <i>p</i> but we could calculate gcd(xi - xj, n) for 1 <= i < j <= l and eventually find nontrivial divisonr of number n. Now we have to find xi and xj, such that xi=xj. We make two sequences; the first steps forward for step of length one, and the second for the step of length two.</p>
-<p> s1 : x0, x1=f(x0), x2 = f(x1),...</p>
-<p> s2 : y0, y1=f(f(y0)), y2 = f(f(y1)),...</p>
-<p>We assume that at some point both sequences are in a cycle, from that point forward is just a metter of time until one sequence catches the onther. </p>
+<p>Let \(n = p\cdot m\) where \(p\) is a prime number and \(m\) an integer which does not need to be a prime number. Our task is to find \(p\). Now <b>Pollard's rho algorithm</b> uses the fact: if \(x_1 = x_2\; (\text{mod }p);\ x_1, x_2\) from \(\{0,...,n-1\}\), then \(p|(x_1 - x_2)\). We know that \(p|n\) and  \(p| (x_1 - x_2)\), therefore \(p | \text{gcd}(x_1 - x_2, n)\). We do not know the value of \(p\) but we could calculate \(\text{gcd}(x_i - x_j, n)\) for \(1 \leq i < j \leq l\) and eventually find nontrivial divisor of number n. Now we have to find \(x_i\) and \(x_j\), such that \(x_i = x_j\; (\text{mod }p)\). We make two sequences; the first steps forward for the step of length one, and the second for the step of length two. Mathematically we would write the sequences as:</p>
+<p>\(s_1 : x_0, x_1=f(x_0), x_2 = f(x_1),...;\ f = \)</p>
+<p>\(s_2 : y_0, y_1=f(f(y_0)), y_2 = f(f(y_1)),...;\ f = \)</p>
+<p>We assume that at some point both sequences are in a cycle, from that point forward is just a metter of time until one sequence catches the other. </p>
 </html>
