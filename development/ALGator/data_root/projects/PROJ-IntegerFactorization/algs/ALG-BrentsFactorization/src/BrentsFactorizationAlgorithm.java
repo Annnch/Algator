@@ -6,7 +6,7 @@ public class BrentsFactorizationAlgorithm extends IntegerFactorizationAbsAlgorit
 	static BigInteger one = new BigInteger("1");
 	static BigInteger two = new BigInteger("2");
 	
-	public static ArrayList<BigInteger> factorizaton(BigInteger number) {
+	public ArrayList<BigInteger> execute(BigInteger number) {
 		// http://eprints.fri.uni-lj.si/1356/2/Bogataj1.pdf
 		// http://connellybarnes.com/documents/factoring.pdf
 		
