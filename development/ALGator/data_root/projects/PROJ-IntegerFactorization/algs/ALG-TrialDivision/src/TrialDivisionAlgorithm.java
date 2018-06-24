@@ -1,20 +1,18 @@
-import si.fri.algotest.global.ErrorStatus;
-
 import java.math.BigInteger;
 import java.util.ArrayList;
 
 /**
  *
- * @author Ana
+ * @author Ana, Andrej
  */
 public class TrialDivisionAlgorithm extends IntegerFactorizationAbsAlgorithm {
 
-	static BigInteger zero = new BigInteger("0");
-	static BigInteger one = new BigInteger("1");
+	static BigInteger zero = BigInteger.ZERO;
+	static BigInteger one = BigInteger.ONE;
 	static BigInteger two = new BigInteger("2");
 	
 	@Override
-  public ArrayList<BigInteger> execute(BigInteger number) {
+  	public ArrayList<BigInteger> execute(BigInteger number) {
 		// http://eprints.fri.uni-lj.si/1356/2/Bogataj1.pdf
 		
 		ArrayList<BigInteger> factors = new ArrayList<BigInteger>();

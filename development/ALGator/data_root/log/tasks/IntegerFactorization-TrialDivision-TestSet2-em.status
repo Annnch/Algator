@@ -1,3 +1,8 @@
 2018-06-08 15:14:19: Task executed by ALGator
+<<<<<<< Updated upstream
 2018-06-11 18:26:04:RUNNING # F0.C0 # 1000/1000 # 100%
 2018-06-11 18:26:04:COMPLETED # F0.C0
+=======
+2018-06-24 19:07:38:RUNNING # F0.C0 # 1000/1000 # 100%
+2018-06-24 19:07:38:COMPLETED # F0.C0
+>>>>>>> Stashed changes

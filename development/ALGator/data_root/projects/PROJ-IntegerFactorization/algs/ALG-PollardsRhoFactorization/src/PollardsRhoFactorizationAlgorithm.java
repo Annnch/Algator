@@ -6,7 +6,9 @@ import java.util.ArrayList;
  * @author Ana, Andrej
  */
 public class PollardsRhoFactorizationAlgorithm extends IntegerFactorizationAbsAlgorithm {
-	static BigInteger one = new BigInteger("1");
+
+	static BigInteger zero = BigInteger.ZERO;
+	static BigInteger one = BigInteger.ONE;
 	static BigInteger two = new BigInteger("2");
 	
 	public ArrayList<BigInteger> execute(BigInteger number) {
@@ -27,7 +29,7 @@ public class PollardsRhoFactorizationAlgorithm extends IntegerFactorizationAbsAl
 			
 			BigInteger s = n.gcd(xi.subtract(yi));
 			
-			if ( s.compareTo(one) != 0 && s.compareTo(n) != 0 ) {
+			if ( !s.equals(one) && !s.equals(n) ) {
 				factors.add(s);
 				factors.add(n.divide(s));
 				return factors;

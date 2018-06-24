@@ -6,7 +6,8 @@ import java.util.ArrayList;
  * @author Ana, Andrej
  */
 public class BrentsFactorizationAlgorithm extends IntegerFactorizationAbsAlgorithm {
-	static BigInteger one = new BigInteger("1");
+
+	static BigInteger one = BigInteger.ONE;
 	static BigInteger two = new BigInteger("2");
 	
 	public ArrayList<BigInteger> execute(BigInteger number) {

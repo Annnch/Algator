@@ -11,7 +11,7 @@ import java.util.ArrayList;
 
 /**
  *
- * @author Ana
+ * @author Ana, Andrej
  */
 public abstract class IntegerFactorizationAbsAlgorithm extends AbsAlgorithm {
 
@@ -42,10 +42,10 @@ public abstract class IntegerFactorizationAbsAlgorithm extends AbsAlgorithm {
     VariableSet result = new VariableSet(factorizationTestCase.getParameters());
 
     BigInteger r = new BigInteger("1");
+
     for ( BigInteger f : factorizationTestCase.factors ) {
       r = r.multiply(f);
     }
-
 
     boolean checkOK = r.equals(factorizationTestCase.numberToFactorize);
     
