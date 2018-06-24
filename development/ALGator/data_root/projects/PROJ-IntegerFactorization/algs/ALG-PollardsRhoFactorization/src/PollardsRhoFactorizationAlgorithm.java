@@ -1,6 +1,9 @@
+import java.math.BigInteger;
+import java.util.ArrayList;
+
 /**
  *
- * @author Ana
+ * @author Ana, Andrej
  */
 public class PollardsRhoFactorizationAlgorithm extends IntegerFactorizationAbsAlgorithm {
 	static BigInteger one = new BigInteger("1");

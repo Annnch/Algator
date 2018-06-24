@@ -1,6 +1,9 @@
+import java.math.BigInteger;
+import java.util.ArrayList;
+
 /**
  *
- * @author Ana
+ * @author Ana, Andrej
  */
 public class BrentsFactorizationAlgorithm extends IntegerFactorizationAbsAlgorithm {
 	static BigInteger one = new BigInteger("1");
@@ -23,7 +26,7 @@ public class BrentsFactorizationAlgorithm extends IntegerFactorizationAbsAlgorit
 			xi = (xi.multiply(xi).add(one)).mod(n);
 			BigInteger s = n.gcd(xi.subtract(xm));
 			
-			if ( s.compareTo(one) != 0 && s.compareTo(n) != 0  ) {
+			if ( !s.equals(one) && !s.equals(n) ) {
 				factors.add(s);
 				factors.add(n.divide(s));
 				return factors;
@@ -39,12 +42,12 @@ public class BrentsFactorizationAlgorithm extends IntegerFactorizationAbsAlgorit
 	}
 
 	private static boolean integralPowerOf2(BigInteger z) { // can be different base than 2
-		BigInteger pow2 = Constants.one;
+		BigInteger pow2 = one;
 		while ( pow2.compareTo(z) != 1 ) { // pow2 <= z
-			if ( pow2.compareTo(z) == 0 ) { // pow2 = z
+			if ( pow2.equals(z) ) { // pow2 = z
 				return true;
 			}
-			pow2 = pow2.multiply(Constants.two);
+			pow2 = pow2.multiply(two);
 		}
 		return false;
 	}
