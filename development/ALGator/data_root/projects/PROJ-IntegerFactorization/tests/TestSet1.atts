@@ -2,8 +2,8 @@
   "TestSet": {
     "Name"             : "TestSet1",
 
-    "ShortName"        : "testset_short_name",
-    "Description"      : "testset_description",
+    "ShortName"        : "TS1",
+    "Description"      : "Product of two random prime numbers",
     "N"                : "1000",
     "TestRepeat"       : "1",
     "TimeLimit"        : "10",

@@ -2,9 +2,9 @@
   "Algorithm" : {	
 
    "Name"           : "PollardsRhoFactorization",
-   "ShortName"      : "algorithm_short_name",             
-   "Description"    : "algorithm_dascription",
-   "Author"         : "author_name",
+   "ShortName"      : "PollardsRHO",             
+   "Description"    : "Pollard's rho factorization algorithm",
+   "Author"         : "Ana in Andrej",
    "Date"           : "06, 2018",
 
 
