@@ -55,7 +55,8 @@ public class IntegerFactorizationTestSetIterator extends DefaultTestSetIterator 
 
     switch (group) {
 
-    case "RND":
+
+    case "RND": // chooses a random number
 
       // http://www.java2s.com/Tutorials/Java/Algorithms_How_to/Random/Generate_a_random_BigInteger_value.htm
       BigInteger bigInteger = new BigInteger(probSize);// uper limit
@@ -75,6 +76,7 @@ public class IntegerFactorizationTestSetIterator extends DefaultTestSetIterator 
       number = aRandomBigInt;
 
       break;
+
 
     case "RNDMILLIONPRIMES": // chooses two random prime numbers from the same million of prime numbers
 

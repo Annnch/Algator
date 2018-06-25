@@ -6,7 +6,7 @@
     "Description"      : "Product of two random prime numbers",
     "N"                : "1000",
     "TestRepeat"       : "1",
-    "TimeLimit"        : "10",
+    "TimeLimit"        : "1",
 
     "TestSetDescHTML"  : "TestSet1.html"
   }
