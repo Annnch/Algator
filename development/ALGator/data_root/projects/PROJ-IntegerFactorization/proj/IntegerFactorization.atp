@@ -1,11 +1,10 @@
 {"Project": {
   "Name": "IntegerFactorization",
-  "Description": "short_project_description",
-  "Author": "author_name",
+  "Description": "Different integer factorizations",
+  "Author": "Ana in Andrej",
   "Date": "06, 2018",
   "Algorithms": [
     "TrialDivision",
-    "PollardsRgoAlgorithm",
     "PollardsRhoFactorization",
     "BrentsFactorization",
     "FermatsFactorization"

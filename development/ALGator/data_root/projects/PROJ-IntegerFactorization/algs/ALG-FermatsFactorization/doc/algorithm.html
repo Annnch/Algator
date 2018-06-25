@@ -1,11 +1,18 @@
 <html>
-<p><b>Fermat's factorization algorithm</b> works simillar to the trial division algorith, but in different direction; it starts with 1 and stops with a number smaller or equal to square root of number that we want to factorize. Fermat's algorithem starts with squre root of number <i>n</i>, therefore algorithm works fast for the numbers that are a product of two numbers close together.</p>
-<p>Let $n = a \cdot b$ where $a$, $b$ are integers. We can also write $n$ as \( n = x^2 - y2 = (x - y)(x + y) \), where \( x = \frac{a + b}{2} \text{ and } y = \frac{a - b}{2} \). Fermat's algorithm now follows next steps:
-<ol>
-	<li>x = square root of n (rounded up)</li>
-	<li>\( y = x^2 - n \)</li>
-	<li>if $y$ is a square of some number, we are done</li>
-	<li>if $y$ is note a square of some number, we increase $x$ by 1 and calculate $y$ as before</li>
-</ol></p>
+<p>
+	<b>Fermat's factorization algorithm</b> works simillar to the trial division algorithm, but in different direction. We denote
+	with \(n\) the number we wand to factorize. Trial division algorithm starts with 2 and stops with a number smaller or equal
+	to \(\sqrt{n}\). On the other hand Fermat's algorithm starts with \(\sqrt{n}\), therefore algorithm works fast for the numbers
+	that are a product of two numbers close together.</p>
+<p>Let \(n = a \cdot b\), where \(a\) and \(b\) are integers. We can also write \(n\) as \( n = x^2 - y^2 = (x - y)(x + y) \),
+	where \( x = \frac{a + b}{2} \text{ and } y = \frac{a - b}{2} \). Fermat's algorithm now follows next steps:
+	<ol>
+		<li>\(x = \sqrt{n}\) (rounded up)</li>
+		<li>\(y = x^2 - n\)</li>
+		<li>if \(y\) is a square of some number, we are done.</li>
+		<li>if \(y\) is not a square of some number, we increase \(x\) by 1 and calculate \(y\) as before.</li>
+	</ol>
+</p>
 <p>Time complexity: \( O(n) \).</p>
+
 </html>

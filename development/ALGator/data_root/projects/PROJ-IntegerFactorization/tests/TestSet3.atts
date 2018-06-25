@@ -2,8 +2,8 @@
   "TestSet": {
     "Name"             : "TestSet3",
 
-    "ShortName"        : "testset_short_name",
-    "Description"      : "testset_description",
+    "ShortName"        : "TS3",
+    "Description"      : "Product of two random prime numbers not far appart",
     "N"                : "1000",
     "TestRepeat"       : "1",
     "TimeLimit"        : "1",
