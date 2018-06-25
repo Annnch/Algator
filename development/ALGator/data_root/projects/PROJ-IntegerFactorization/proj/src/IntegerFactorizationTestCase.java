@@ -10,12 +10,12 @@ import java.util.ArrayList;
  */
 public class IntegerFactorizationTestCase extends TestCase {
 
-	public BigInteger numberToFactorize;
+  public BigInteger numberToFactorize;
   public ArrayList<BigInteger> factors;
-  
+
   @Override
   public String toString() {
     return super.toString() + ", Data: " + numberToFactorize.toString();
   }
-    
+
 }

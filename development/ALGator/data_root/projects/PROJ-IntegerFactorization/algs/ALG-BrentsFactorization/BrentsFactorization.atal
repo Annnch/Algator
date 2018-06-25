@@ -2,9 +2,9 @@
   "Algorithm" : {	
 
    "Name"           : "BrentsFactorization",
-   "ShortName"      : "algorithm_short_name",             
-   "Description"    : "algorithm_dascription",
-   "Author"         : "author_name",
+   "ShortName"      : "Brent",             
+   "Description"    : "Brent's factorization algorithm",
+   "Author"         : "Ana in Andrej",
    "Date"           : "06, 2018",
 
 

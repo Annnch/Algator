@@ -1,3 +1,42 @@
 <html>
-<p><b>Brent's factorization algorithm</b> is improved Pollard's rho algorithm. The difference between algorithms is in a function that defines step od a function.</p>
+<p>
+    <b>Brent's factorization algorithm</b> is improved Pollard's rho algorithm. The difference between algorithms is in a function
+    that defines a step of a sequence.</p>
+
+<p>Simple pseudocode:</p>
+
+<ol>
+    <li>
+        <b>function BrentsFactorization(\(N\))</b>
+    </li>
+    <li>&emsp; \(x_i := 2\)</li>
+    <li>&emsp; \(x_m := 2\)</li>
+    <li>&emsp; \(i := 1\)</li>
+
+    <li>
+        <b>&emsp; while (true)</b>
+    </li>
+    <li>&emsp;&emsp; \(x_i := (x_i ^ 2 + 1) (\text{mod } N) \)</li>
+
+    <li>&emsp;&emsp; \(s := \text{gcd}(x_i - x_m, N)\)</li>
+    <li>&emsp;&emsp;
+        <b>if</b> \(s != 1\)
+        <b>and</b> \(s != N\)
+        <b>then</b>
+    </li>
+    <li>&emsp;&emsp;&emsp;
+        <b>return</b> \(s, N/s\)</li>
+    <li>&emsp;&emsp;
+        <b>if</b> integralPowerOf(\(i\))
+        <b>then</b>
+    </li>
+    <li>&emsp;&emsp;&emsp; \(x_m := x_i\)</li>
+    <li>&emsp;&emsp; \(i = i + 1\)</li>
+</ol>
+
+<p>Here the function integralPowerOf2(\(i\)) is \(true\) if \(i\) is an integral power of 2 and \(false\) otherwise. An inefficient
+    implementation for this function can be made by checking successive powers of 2 until a power of 2 equals or exceeds
+    \(i\).
+</p>
+
 </html>
