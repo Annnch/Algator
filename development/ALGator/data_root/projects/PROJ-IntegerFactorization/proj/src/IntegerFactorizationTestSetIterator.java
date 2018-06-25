@@ -20,10 +20,9 @@ import java.nio.file.Files;
 import java.nio.file.Paths;
 import java.util.stream.Stream;
 
-
 /**
  *
- * @author Ana
+ * @author Ana, Andrej
  */
 public class IntegerFactorizationTestSetIterator extends DefaultTestSetIterator {
 
@@ -35,7 +34,7 @@ public class IntegerFactorizationTestSetIterator extends DefaultTestSetIterator 
     }
 
     // sort-project specific: line contains at least 3 fileds: testName, n and group
-    String [] fields = currentInputLine.split(":");
+    String[] fields = currentInputLine.split(":");
     if (fields.length < 3) {
       reportInvalidDataFormat("to few fields");
       return null;
@@ -52,14 +51,12 @@ public class IntegerFactorizationTestSetIterator extends DefaultTestSetIterator 
     }
     String group = fields[2];
 
-    int rndSize = 100; // the size of the rnadom numbers used in the array (used with RND group).
-
     BigInteger number = new BigInteger("1");
 
     switch (group) {
 
     case "RND":
-      
+
       // http://www.java2s.com/Tutorials/Java/Algorithms_How_to/Random/Generate_a_random_BigInteger_value.htm
       BigInteger bigInteger = new BigInteger(probSize);// uper limit
       BigInteger min = bigInteger.divide(new BigInteger("10"));// lower limit
@@ -79,8 +76,7 @@ public class IntegerFactorizationTestSetIterator extends DefaultTestSetIterator 
 
       break;
 
-
-    case "RNDPRIMES":  // first parameter is filemane, second the offset (from where numbers are read)
+    case "RNDMILLIONPRIMES": // chooses two random prime numbers from the same million of prime numbers
 
       Random rnd1 = new Random(System.currentTimeMillis());
 
@@ -97,8 +93,7 @@ public class IntegerFactorizationTestSetIterator extends DefaultTestSetIterator 
 
       break;
 
-
-    case "RNDMILLIONPRIMES":
+    case "RNDPRIMES": // chooses two random prime numbers
 
       Random rnd2 = new Random(System.currentTimeMillis());
 
@@ -122,9 +117,9 @@ public class IntegerFactorizationTestSetIterator extends DefaultTestSetIterator 
 
     EVariable testIDPar = EResult.getTestIDParameter("Test-" + Integer.toString(lineNumber));
 
-    EVariable parameter1 = new EVariable("Test",  "Test name",                    VariableType.STRING, testName);
-    EVariable parameter2 = new EVariable("N",     "Number of elements",           VariableType.INT,    numberSize);
-    EVariable parameter3 = new EVariable("Group", "A name of a group of tests",   VariableType.STRING, group);
+    EVariable parameter1 = new EVariable("Test", "Test name", VariableType.STRING, testName);
+    EVariable parameter2 = new EVariable("N", "Number of elements", VariableType.INT, numberSize);
+    EVariable parameter3 = new EVariable("Group", "A name of a group of tests", VariableType.STRING, group);
 
     IntegerFactorizationTestCase tCase = new IntegerFactorizationTestCase();
     // ID
@@ -133,7 +128,6 @@ public class IntegerFactorizationTestSetIterator extends DefaultTestSetIterator 
     tCase.addParameter(parameter1);
     tCase.addParameter(parameter2);
     tCase.addParameter(parameter3);
-
 
     tCase.numberToFactorize = number;
     return tCase;
