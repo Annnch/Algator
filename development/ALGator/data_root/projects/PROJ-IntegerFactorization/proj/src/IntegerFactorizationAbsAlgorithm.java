@@ -41,7 +41,7 @@ public abstract class IntegerFactorizationAbsAlgorithm extends AbsAlgorithm {
   public VariableSet done() {
     VariableSet result = new VariableSet(factorizationTestCase.getParameters());
 
-    BigInteger r = new BigInteger("1");
+    BigInteger r = BigInteger.ONE;
 
     for ( BigInteger f : factorizationTestCase.factors ) {
       r = r.multiply(f);

@@ -6,7 +6,7 @@ import java.util.ArrayList;
 
 /**
  * 
- * @author Ana
+ * @author Ana, Andrej
  */
 public class IntegerFactorizationTestCase extends TestCase {
 
@@ -15,10 +15,6 @@ public class IntegerFactorizationTestCase extends TestCase {
   
   @Override
   public String toString() {
-    // Note that we use a method intArrayToString that was defined in the basicsort.Tools
-    // class; this class was attached to the project using the "ProjectJARs" property
-    // in the BasicSort.atp configuration file.
-    // For the details about basicsort.Tools class see proj/lib folder.
     return super.toString() + ", Data: " + numberToFactorize.toString();
   }
     

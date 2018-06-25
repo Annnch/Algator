@@ -34,7 +34,6 @@ public class IntegerFactorizationTestSetIterator extends DefaultTestSetIterator 
       return null;
     }
 
-    // sort-project specific: line contains at least 3 fileds: testName, n and group
     String [] fields = currentInputLine.split(":");
     if (fields.length < 3) {
       reportInvalidDataFormat("to few fields");
@@ -42,19 +41,13 @@ public class IntegerFactorizationTestSetIterator extends DefaultTestSetIterator 
     }
 
     String testName = fields[0];
-    String probSize;
-    int numberSize;
-    try {
-      probSize = fields[1];
-    } catch (Exception e) {
-      reportInvalidDataFormat("'n' is not a number");
-      return null;
-    }
+    String probSize = fields[1];
     String group = fields[2];
+    int numberSize;
 
-    int rndSize = 100; // the size of the rnadom numbers used in the array (used with RND group).
+    int rndSize = 100; 
 
-    BigInteger number = new BigInteger("1");
+    BigInteger number = BigInteger.ONE;
 
     switch (group) {
 
@@ -123,7 +116,7 @@ public class IntegerFactorizationTestSetIterator extends DefaultTestSetIterator 
     EVariable testIDPar = EResult.getTestIDParameter("Test-" + Integer.toString(lineNumber));
 
     EVariable parameter1 = new EVariable("Test",  "Test name",                    VariableType.STRING, testName);
-    EVariable parameter2 = new EVariable("N",     "Number of elements",           VariableType.INT,    numberSize);
+    EVariable parameter2 = new EVariable("N",     "Number of digits",           VariableType.INT,    numberSize);
     EVariable parameter3 = new EVariable("Group", "A name of a group of tests",   VariableType.STRING, group);
 
     IntegerFactorizationTestCase tCase = new IntegerFactorizationTestCase();
