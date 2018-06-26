@@ -19,8 +19,12 @@
   "EMExecFamily": "",
   "CNTExecFamily": "",
   "JVMExecFamily": "",
-  "ProjPresenters": [],
-  "AlgPresenters": [],
-  "MainProjPresenters": [],
-  "MainAlgPresenters": []
+  "ProjPresenters": [
+    "presenter1",
+    "presenter2",
+    "presenter3"    
+  ],
+  "AlgPresenters": ["apresenter1"],
+  "MainProjPresenters": ["ppresenter.atpd"],
+  "MainAlgPresenters": ["ppresenter.atpd"]
 }}

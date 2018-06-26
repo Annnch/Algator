@@ -1,0 +1,17 @@
+{"Presenter":
+  { 
+    "Title"       : "Factoring a pseudoprime (primes in chosen randomly)",
+    "ShortTitle"  : "Tmin - TestSet1",
+    "Description" : "Minimal time of execution",
+    "Query"       : "query1",
+    "HasGraph"    : "true",
+    "Xaxis"       : "N",
+    "Yaxes"       : ["*.Tmin"],
+    "GraphTypes"  : "line",
+    "XaxisLabel"  : "[Number of digits (n)]",
+    "YaxisLabel"  : "[Minimal time of execution (micro seconds)]",
+    "HasTable"    : "true",
+    "Columns"     : ["N", "*.Tmin"]
+  }
+}
+

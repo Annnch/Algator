@@ -12,9 +12,6 @@ public class PollardsRhoFactorizationAlgorithm extends IntegerFactorizationAbsAl
 	static BigInteger two = new BigInteger("2");
 	
 	public ArrayList<BigInteger> execute(BigInteger number) {
-		// http://eprints.fri.uni-lj.si/1356/2/Bogataj1.pdf
-		// http://connellybarnes.com/documents/factoring.pdf
-		// http://math.mit.edu/~goemans/18310S15/factoring-notes.pdf
 		
 		ArrayList<BigInteger> factors = new ArrayList<BigInteger>();
 		BigInteger n = number;

@@ -1,0 +1,17 @@
+{"Presenter":
+  { 
+    "Title"       : "Factoring a random integer",
+    "ShortTitle"  : "Tmin - TestSet2",
+    "Description" : "Minimal time of execution",
+    "Query"       : "query2",
+    "HasGraph"    : "true",
+    "Xaxis"       : "N",
+    "Yaxes"       : ["*.Tmin"],
+    "GraphTypes"  : "line",
+    "XaxisLabel"  : "[Number of digits (n)]",
+    "YaxisLabel"  : "[Minimal time of execution (micro seconds)]",
+    "HasTable"    : "true",
+    "Columns"     : ["N", "*.Tmin"]
+  }
+}
+
