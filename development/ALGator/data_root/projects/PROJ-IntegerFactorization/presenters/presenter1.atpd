@@ -1,6 +1,6 @@
 {"Presenter":
   { 
-    "Title"       : "Factoring a pseudoprime (primes in chosen randomly)",
+    "Title"       : "Factoring a semiprime (primes in factorization are chosen randomly)",
     "ShortTitle"  : "Tmin - TestSet1",
     "Description" : "Minimal time of execution",
     "Query"       : "query1",

@@ -1,6 +1,6 @@
 {"Presenter":
   { 
-    "Title"       : "Factoring a pseudoprime (primes in factorization are close together)",
+    "Title"       : "Factoring a semiprime (primes in factorization are close together)",
     "ShortTitle"  : "Tmin - TestSet3",
     "Description" : "Minimal time of execution",
     "Query"       : "query3",

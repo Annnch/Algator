@@ -1,8 +1,8 @@
 {"Presenter":
   { 
-    "Title"       : "Number of SWAPs v.s. Tmin",
-    "ShortTitle"  : "SWAP v.s. Tmin",
-    "Description" : "A quotient between number of performed SWAPs and the execution time Tmin",
+    "Title"       : "Minimum time of execution for all the algorithms on TestSet1",
+    "ShortTitle"  : "Tmin",
+    "Description" : "Minimal time of execution",
     "Query"       : "aquery1",
     "HasGraph"    : "true",
     "Xaxis"       : "N",

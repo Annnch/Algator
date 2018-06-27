@@ -1,6 +1,6 @@
 {"Presenter":
   { 
-    "Title"       : "Minimum time of execution on TestSet1",
+    "Title"       : "Minimum time of execution for all the algorithms on TestSet1",
     "ShortTitle"  : "Tmin",
     "Description" : "Minimal time of execution",
     "Query"       : "query1",
