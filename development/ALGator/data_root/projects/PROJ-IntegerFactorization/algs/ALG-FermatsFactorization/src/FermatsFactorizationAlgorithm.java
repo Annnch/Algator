@@ -12,8 +12,6 @@ public class FermatsFactorizationAlgorithm extends IntegerFactorizationAbsAlgori
 	static BigInteger two = new BigInteger("2");
 	
 	public ArrayList<BigInteger> execute(BigInteger number) {
-		// http://eprints.fri.uni-lj.si/1356/2/Bogataj1.pdf
-		// http://wnlabs.com/pdf/Fermat_factoring_with_traditional_sieve_method.pdf
 		
 		BigInteger n = number;
 		ArrayList<BigInteger> factors = new ArrayList<BigInteger>();

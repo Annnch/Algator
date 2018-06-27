@@ -36,8 +36,7 @@ public class PollardsRhoFactorizationAlgorithm extends IntegerFactorizationAbsAl
 
 	}
 
-	private static BigInteger functionF(BigInteger x, BigInteger n) {
-		// x^2 + 1 (mod n)
+	private static BigInteger functionF(BigInteger x, BigInteger n) { // x^2 + 1 (mod n)
 		return ((x.multiply(x)).add(one)).mod(n);
 	}
 }

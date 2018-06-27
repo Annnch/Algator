@@ -11,8 +11,6 @@ public class BrentsFactorizationAlgorithm extends IntegerFactorizationAbsAlgorit
 	static BigInteger two = new BigInteger("2");
 
 	public ArrayList<BigInteger> execute(BigInteger number) {
-		// http://eprints.fri.uni-lj.si/1356/2/Bogataj1.pdf
-		// http://connellybarnes.com/documents/factoring.pdf
 
 		ArrayList<BigInteger> factors = new ArrayList<BigInteger>();
 		BigInteger n = number;
@@ -42,15 +40,10 @@ public class BrentsFactorizationAlgorithm extends IntegerFactorizationAbsAlgorit
 
 	}
 
-	private static boolean integralPowerOf2(BigInteger z) { // can be different base than 2
+	private static boolean integralPowerOf2(BigInteger z) { 
 		if (z.and(z.subtract(BigInteger.ONE)) == 0) {
 			return true;
 		} else
 			return false;
-		/*
-		 * BigInteger pow2 = one; while ( pow2.compareTo(z) != 1 ) { // pow2 <= z if (
-		 * pow2.equals(z) ) { // pow2 = z return true; } pow2 = pow2.multiply(two); }
-		 * return false;
-		 */
 	}
 }

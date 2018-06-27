@@ -13,7 +13,6 @@ public class TrialDivisionAlgorithm extends IntegerFactorizationAbsAlgorithm {
 
 	@Override
 	public ArrayList<BigInteger> execute(BigInteger number) {
-		// http://eprints.fri.uni-lj.si/1356/2/Bogataj1.pdf
 
 		ArrayList<BigInteger> factors = new ArrayList<BigInteger>();
 		BigInteger n = number;
@@ -41,6 +40,8 @@ public class TrialDivisionAlgorithm extends IntegerFactorizationAbsAlgorithm {
 	}
 
 	private static BigInteger sqrt(BigInteger n) {
+		// https://gist.github.com/JochemKuijpers/cd1ad9ec23d6d90959c549de5892d6cb
+		
 		BigInteger a = BigInteger.ONE;
 		BigInteger b = n.shiftRight(5).add(BigInteger.valueOf(8));
 		while (b.compareTo(a) >= 0) {
