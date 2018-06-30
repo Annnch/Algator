@@ -1,3 +1,0 @@
-Usage examples
-
-java algator.Execute Sorting
